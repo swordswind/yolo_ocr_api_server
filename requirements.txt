@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+opencv
+ultralytics
+pillow
+easyocr
+requests
+pyautogui

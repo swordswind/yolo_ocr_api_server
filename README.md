@@ -7,6 +7,11 @@ YOLOv8&amp;EasyOCR融合图像识别API服务器
 - YOLOv8: [https://github.com/ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)
 - EasyOCR: [https://github.com/JaidedAI/EasyOCR](https://github.com/JaidedAI/EasyOCR)
 
+## 安装依赖
+   ```
+   pip install -r requirements.txt
+   ```
+
 ## 运行方式
 python img_api_server.py
 

@@ -7,6 +7,11 @@ This project integrates the YOLOv8 image object recognition model developed by u
 - YOLOv8: [https://github.com/ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) 
 - EasyOCR: [https://github.com/JaidedAI/EasyOCR](https://github.com/JaidedAI/EasyOCR) 
 
+## Installation of Dependencies
+   ```
+   pip install -r requirements.txt
+   ```
+
 ## Running Method
 python img_api_server.py
 

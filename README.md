@@ -4,7 +4,7 @@ YOLO10&amp;EasyOCR融合图像识别API服务器
 本项目整合了THU-MIG开发的YOLOv10图像物品识别模型和JaidedAI开发的EasyOCR图像文字识别模型，提供快速、准确的图像识别服务。
 
 ## 项目源地址
-- YOLOv8: [https://github.com/THU-MIG/yolov10](https://github.com/THU-MIG/yolov10)
+- YOLOv10: [https://github.com/THU-MIG/yolov10](https://github.com/THU-MIG/yolov10)
 - EasyOCR: [https://github.com/JaidedAI/EasyOCR](https://github.com/JaidedAI/EasyOCR)
 
 ## 安装依赖

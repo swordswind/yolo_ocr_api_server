@@ -1,10 +1,10 @@
 # yolo_ocr_api_server
-YOLOv8&amp;EasyOCR融合图像识别API服务器
+YOLO10&amp;EasyOCR融合图像识别API服务器
 
-本项目整合了ultralytics开发的YOLOv8图像物品识别模型和JaidedAI开发的EasyOCR图像文字识别模型，提供快速、准确的图像识别服务。
+本项目整合了THU-MIG开发的YOLOv10图像物品识别模型和JaidedAI开发的EasyOCR图像文字识别模型，提供快速、准确的图像识别服务。
 
 ## 项目源地址
-- YOLOv8: [https://github.com/ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)
+- YOLOv8: [https://github.com/THU-MIG/yolov10](https://github.com/THU-MIG/yolov10)
 - EasyOCR: [https://github.com/JaidedAI/EasyOCR](https://github.com/JaidedAI/EasyOCR)
 
 ## 安装依赖
@@ -19,8 +19,13 @@ python img_api_server.py
 图像识别模型API服务器地址默认为：`http://你的电脑IP:8089/`
 
 ## API接口
-### 图像物品识别模型
+### 摄像头物品识别模型
 - **接口地址**: `/yolo/`
+- **请求方式**: `GET`
+- **请求参数**: 无
+
+### 屏幕物品识别模型
+- **接口地址**: `/yoloscreen/`
 - **请求方式**: `GET`
 - **请求参数**: 无
 
@@ -33,7 +38,7 @@ python img_api_server.py
 ### 图像物品识别
 1. 在浏览器地址栏输入以下地址：
    ```
-   http://127.0.0.1:8089/yolo/
+   http://127.0.0.1:8089/yolo/ 或 http://127.0.0.1:8089/yoloscreen/
    ```
 2. 按下回车键，服务器将返回JSON格式的识别结果，例如：
    ```json
